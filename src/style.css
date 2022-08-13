@@ -1,0 +1,29 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+input, button {
+  margin-right: 0.5em;
+  font-size: 1.3em;
+}
+
+.addTarefa {
+  display: flex;
+  justify-content: center;
+}
+
+.cadaTarefa {
+  display: flex;
+  align-items: baseline;
+  margin: 2em;
+  font-size: 1.5em;
+}
+
