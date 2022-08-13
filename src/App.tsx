@@ -14,6 +14,7 @@ function App() {
     }
 
     setTarefas([...tarefas, novaTarefa])
+    inputTarefa.value = ''
   }
 
   return (
