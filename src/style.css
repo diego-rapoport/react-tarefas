@@ -15,15 +15,21 @@ input, button {
   font-size: 1.3em;
 }
 
-.addTarefa {
+.addTarefa, .cadaTarefa, .importExport {
   display: flex;
+}
+
+.addTarefa {
   justify-content: center;
 }
 
 .cadaTarefa {
-  display: flex;
   align-items: baseline;
   margin: 2em;
   font-size: 1.5em;
 }
 
+.importExport {
+  margin-bottom: 3em;
+  width: 37em;
+}
